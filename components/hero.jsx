@@ -12,7 +12,7 @@ const HeroSection = () => {
     const imageElement = imageRef.current;
 
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window.scrollY;  
       const scrollThreshold = 100;
 
       if (scrollPosition > scrollThreshold) {
@@ -44,11 +44,6 @@ const HeroSection = () => {
           <Link href="/dashboard">
             <Button size="lg" className="px-8">
               Get Started
-            </Button>
-          </Link>
-          <Link href="https://www.youtube.com/roadsidecoder">
-            <Button size="lg" variant="outline" className="px-8">
-              Watch Demo
             </Button>
           </Link>
         </div>
